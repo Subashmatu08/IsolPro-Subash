@@ -37,6 +37,10 @@
   display: flex;
   justify-content: space-between;
 }
+.nav-link {
+  margin-right: 2rem;
+  font-weight: 500;
+}
 a {
   color: black !important;
 }
@@ -68,5 +72,22 @@ footer {
 //   font-size: 50px;
 // }
 // .carousel-desc {
+//   text-align: center;
+// }
+// .new {
+//   position: relative;
+// }
+// .new::after {
+//   content: "new";
+//   font-size: 0.5rem;
+//   position: absolute;
+//   width: 15%;
+//   height: 30px;
+//   display: inline;
+//   white-space: nowrap;
+//   top: 0;
+//   left: 0;
+//   background-color: yellow;
+//   border-radius: 50%;
 //   text-align: center;
 // }
