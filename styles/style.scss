@@ -2,5 +2,11 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  overflow-x: hidden;
+}
+footer {
+  background-color: rgb(250, 193, 36);
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
 }
