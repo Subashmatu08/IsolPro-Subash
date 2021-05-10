@@ -54,7 +54,7 @@ hr {
   border-radius: 5px;
 }
 footer {
-  background-color: rgb(250, 193, 36);
+  background-color: #ffc107;
   position: absolute;
   width: 100%;
   display: flex;
@@ -65,20 +65,57 @@ footer {
   font-size: 10vmin;
 }
 
-// .new {
-//   position: relative;
-// }
-// .new::after {
-//   content: "new";
-//   font-size: 0.5rem;
-//   position: absolute;
-//   width: 15%;
-//   height: 30px;
-//   display: inline;
-//   white-space: nowrap;
-//   top: 0;
-//   left: 0;
-//   background-color: yellow;
-//   border-radius: 50%;
-//   text-align: center;
-// }
+.new {
+  position: relative;
+}
+.new::after {
+  content: "New";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background: #ffc107;
+  top: 3%;
+  left: 8%;
+}
+.sale {
+  position: relative;
+}
+.sale::before {
+  z-index: 10;
+
+  content: "Sale";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background: #ffc107;
+  top: 3%;
+  left: 8%;
+}
+.discount {
+  position: relative;
+}
+.discount::after {
+  content: "10%";
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background: #ffc107;
+  top: 3%;
+  right: 8%;
+}
