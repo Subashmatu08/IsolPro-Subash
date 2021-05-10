@@ -5,13 +5,19 @@
           box-sizing: border-box;
 }
 
+.shopping {
+  -webkit-box-pack: end !important;
+      -ms-flex-pack: end !important;
+          justify-content: flex-end !important;
+}
+
 .container {
   padding: 10px;
 }
 
 .container-full {
   margin-top: 30px;
-  background-color: #ddd8d8;
+  background-color: rgba(238, 238, 238, 0.966);
 }
 
 .categories {

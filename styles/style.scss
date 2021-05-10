@@ -3,12 +3,16 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+.shopping {
+  justify-content: flex-end !important;
+}
 .container {
   padding: 10px;
 }
 .container-full {
   margin-top: 30px;
-  background-color: rgb(221, 216, 216);
+  background-color: rgba(238, 238, 238, 0.966);
 }
 .categories {
   padding: 60px 0 40px 0px;
